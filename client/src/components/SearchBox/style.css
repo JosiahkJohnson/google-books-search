@@ -1,0 +1,17 @@
+.wrapper {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    overflow: hidden;
+}
+
+.title-box {
+    width: 100%;
+}
+
+.btn {
+    float: right;
+    margin-top: 1%;
+    margin-right: 1%;
+}
