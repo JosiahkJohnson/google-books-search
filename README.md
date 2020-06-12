@@ -1,29 +1,42 @@
-# Create React Express App
 
-## About This Boilerplate
+# Google Books Search
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://github.com/JosiahkJohnson)
+    
+## Table of Contents
+1. [Description](#Description)
+2. [Installation](#Installation)
+3. [Usage](#Usage)
+4. [License](#License)
+5. [Contributing](#Contributing)
+6. [Tests](#Tests)
+7. [Questions](#Questions)
+8. [Github Info](#Info)
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## Description:<a name = "Description"></a>
+Allows users to search the google books api and download descriptions of books they are interested in. The download will stay in a mongo database to even be viewed offline.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+## Installation Requirements:<a name = "Installation"></a>
+npm install will install the proper packages, heroku takes care of this for you.
 
-## Starting the app locally
+## Usage:<a name = "Usage"></a>
+Enter a book title and hit search, this will bring up a list of relevent book titles.
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+## License:<a name = "License"></a>
+Not applicable to this project.
 
-```
-npm install
-```
+## Contributing:<a name = "Contributing"></a>
+Not applicable to this project.
 
-This should install node modules within the server and the client folder.
+## Tests:<a name = "Tests"></a>
+not applicable to this project.
 
-After both installations complete, run the following command in your terminal:
+## Questions:<a name = "Questions"></a>
+Not applicable to this project.
 
-```
-npm start
-```
+## Github info:<a name = "Info"></a>
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+[repo](https://github.com/JosiahkJohnson/google-books-search)
+[deployed](https://google-books-search-save.herokuapp.com/)
 
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+### Email me at:
+josiahkj123@gmail.com
